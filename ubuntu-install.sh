@@ -15,9 +15,5 @@ install net-tools
 install vim
 install curl
 install zsh
-#install ctags
-#install tmux
-#install dtach
-#install dstat
-#install nmap
-#install silversearcher-ag
+install openvpn
+install git
