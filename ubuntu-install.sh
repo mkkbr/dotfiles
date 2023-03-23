@@ -11,6 +11,7 @@ function install {
   fi
 }
 
+install net-tools
 install vim
 install curl
 install zsh
