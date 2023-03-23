@@ -106,9 +106,12 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias chez="~/.local/bin/chezmoi"
 alias chezmoi="~/.local/bin/chezmoi"
-alias v="nvim"
+alias vi="nvim"
+alias ls="exa"
+alias bat="batcat"
+alias se="sudoedit"
+
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
