@@ -26,6 +26,16 @@ install btop
 install bat
 install exa
 
+# unsnap
+git clone https://github.com/popey/unsnap
+cd unsnap
+./unsnap auto
+
+# install fonts
+sudo mkdir /usr/local/share/fonts/ttf-byrr
+sudo cp -a .fonts/* /usr/local/share/fonts/ttf-byrr/
+sudo fc-cache -fv
+
 # Run all scripts in programs/
 for f in programs/*.sh; do bash "$f" -H; done
 
